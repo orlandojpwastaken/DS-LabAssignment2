@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Sort {
-    public static void bubbleSort(ArrayList<Integer> arr) {
+    public static void bubbleSort1(ArrayList<Integer> arr) {
         int n = arr.size();
 
         for (int i = 0; i < n - 1; i++) {
@@ -15,8 +15,7 @@ public class Sort {
         }
     }
 
-    // Optimized Bubble Sort
-    public static void optimizedBubbleSort(ArrayList<Integer> arr) {
+    public static void bubbleSort2(ArrayList<Integer> arr) {
         int n = arr.size();
 
         for (int i = 0; i < n - 1; i++) {
